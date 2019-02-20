@@ -51,27 +51,27 @@ get_header();
 			</div>
 			<div class="featured-tiles">
 				<div class="container">
-					<div class="row">
-						<div class="col">
+					<div style="height: 200px" class="d-flex justify-content-center">
+						<div class="h-30">
 							Narrow it Down By Lifestyle
 						</div>
 
 					</div>
-					<div class="row">
-						<div class="col">
+					<div class="row" style="height: 200px">
+						<div class="box-left h-30 col text-center">
 						Box 1
 						</div>
-						<div class="col">
+						<div class="box-left h-30 col text-center">
 						Box 2
 						</div>
-						<div class="col">
+						<div class="box-left h-30 col text-center">
 							Box 3
 						</div>
 
 					</div>
-					<div class="row">
-						<div class="col">
-								Check Our Inventory
+					<div class="d-flex justify-content-center" style="height: 200px">
+						<div class="h-30">
+							<button type="button" class="btn btn-danger browse-inventory rounded-pill">Browse Our Inventory</button>
 						</div>
 
 					</div>
@@ -79,8 +79,35 @@ get_header();
 
 
 			</div>
+			<div class="d-flex flex-row justify-content-around">
+				<div class="p-2 bottom-feature bd-highlight">
+					<h4>Title for Feature</h4>
+					<p>Content for Feature</p>
+				</div>
+				<div class="p-2 bottom-feature bd-highlight">
+					<h4>Title for Feature</h4>
+					<p>Content for Feature</p>
+				</div>
+			</div>
+			<div class="d-flex justify-content-center">
+				<div>
+					<img src="/wp-content/themes/vicjenkins/inc/img/assets_pngs/layer-36.png" alt="">
+				</div>
+			</div>
+			<div class="d-flex flex-row justify-content-around">
+				<div class="p-2 bottom-feature bd-highlight">
+					<h4>Title for Feature</h4>
+					<p>Content for Feature</p>
+				</div>
+				<div class="p-2 bottom-feature bd-highlight">
+					<h4>Title for Feature</h4>
+					<p>Content for Feature</p>
+				</div>
+			</div>
 
-
+			<div class="d-flex bottom-container justify-content-center">
+			<img class="bottom-banner" src="/wp-content/themes/vicjenkins/inc/img/assets-jpgs/auto-car-cold-376361.jpg" alt="">
+			</div>
 
 
 <?php

@@ -35,7 +35,7 @@ module.exports = {
     new BrowserSyncPlugin({
       files: '**/*.php',
       injectChanges: true,
-      proxy: 'http://loganwebdevwebpack.loc'
+      proxy: 'http://vicjenkins.lwd'
     })
   ],
   optimization: {

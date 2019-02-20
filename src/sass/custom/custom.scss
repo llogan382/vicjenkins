@@ -13,5 +13,23 @@
 }
 .featured-tiles{
     background-color: #f4f8fa;
-    height: 600px;
+}
+
+.bottom-banner{
+    background-position: center;
+    height: 200PX;
+    object-fit: cover;
+    width: 100%;
+    opacity: 0.3;
+    filter: blur(2px);
+    background-repeat: no-repeat;
+}
+.bottom-container {
+    border: 5x solid red;
+
+}
+.site-footer{
+    height: 200px;
+    background-color: #333436;
+    border-top: 5px solid #333436;
 }
