@@ -1,0 +1,129 @@
+/*!
+Theme Name: Logan Web Dev Theme Template
+Author: Logan Web Dev
+Author URI: https://loganwebdev.com
+Description: A starter theme for local WordPress development using WebPack. 
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: lwd-dev-template
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+lwd-dev-themeis based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+// @import "variables-site/_variables-site";
+// @import "mixins/mixins-master";
+
+// /*--------------------------------------------------------------
+// # Normalize
+// --------------------------------------------------------------*/
+// @import "normalize";
+
+// /*--------------------------------------------------------------
+// # Typography
+// --------------------------------------------------------------*/
+// @import "typography/typography";
+
+// /*--------------------------------------------------------------
+// # Elements
+// --------------------------------------------------------------*/
+// @import "elements/elements";
+
+// /*--------------------------------------------------------------
+// # Forms
+// --------------------------------------------------------------*/
+// @import "forms/forms";
+
+// /*--------------------------------------------------------------
+// # Navigation
+// --------------------------------------------------------------*/
+// @import "navigation/navigation";
+
+// /*--------------------------------------------------------------
+// # Accessibility
+// --------------------------------------------------------------*/
+// @import "modules/accessibility";
+
+// /*--------------------------------------------------------------
+// # Alignments
+// --------------------------------------------------------------*/
+// @import "modules/alignments";
+
+// /*--------------------------------------------------------------
+// # Clearings
+// --------------------------------------------------------------*/
+// @import "modules/clearings";
+
+// /*--------------------------------------------------------------
+// # Widgets
+// --------------------------------------------------------------*/
+// @import "site/secondary/widgets";
+
+// /*--------------------------------------------------------------
+// # Content
+// --------------------------------------------------------------*/
+// @import "site/site";
+
+// /*--------------------------------------------------------------
+// # Infinite scroll
+// --------------------------------------------------------------*/
+// @import "modules/infinite-scroll";
+
+// /*--------------------------------------------------------------
+// # Media
+// --------------------------------------------------------------*/
+// @import "media/media";
+
+.site-description {
+	color: #99badd;
+}
+
+h1 {
+	background-color: red;
+}
+.entry-content {
+	font-size: 15px;
+}
+
+#menu-primary {
+	display: flex;
+	flex-wrap: nowrap;
+	height: 4.5rem;
+	justify-content: space-evenly;
+}
+.nav-link {
+    text-overflow: ellipsis;
+	overflow: hidden;
+	width: 6rem;
+	height: 3.5rem;
+}
