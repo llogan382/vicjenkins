@@ -1,7 +1,7 @@
 const path = require('path'),
   MiniCssExtractPlugin = require('mini-css-extract-plugin'),
-  UglifyJSPlugin = require('uglifyjs-webpack-plugin'),
-  OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'),
+  // UglifyJSPlugin = require('uglifyjs-webpack-plugin'),
+  // OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'),
   BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
@@ -39,6 +39,9 @@ module.exports = {
     })
   ],
   optimization: {
-    minimizer: [new UglifyJSPlugin(), new OptimizeCssAssetsPlugin()]
+    splitChunks: {
+      chunks: "initial",
+    },
   }
 };
+

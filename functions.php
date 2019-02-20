@@ -44,7 +44,7 @@ if ( ! function_exists( 'lwd_dev_themesetup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'primary' => __( 'Primary Menu', 'LWD Template' ),
+			'primary' => __( 'Primary Menu', 'VicJenkins' ),
 		) );
 
 
@@ -122,6 +122,10 @@ add_action( 'widgets_init', 'lwd_dev_themewidgets_init' );
  */
 function lwd_dev_themescripts() {
 	wp_enqueue_style( 'lwd-style', get_stylesheet_uri() );
+
+	wp_enqueue_style('lwd-bootstrap-css', get_template_directory_uri() . '/assets/bootstrap.min.css');
+
+	wp_enqueue_script('lwd-bootstrap-js', get_template_directory_uri() . '/assets/bootstrap.min.js');
 
 	wp_enqueue_script( 'lwd-navigation', get_template_directory_uri() . '/src/js/navigation.js', array(), '20151215', true );
 

@@ -1,5 +1,5 @@
 /*!
-Theme Name: Vic Jenkins
+Theme Name: VicJenkins
 Author: Logan Web Dev
 Author URI: https://loganwebdev.com
 Description: A custom WordPress Theme for VicJenkins.com
@@ -17,4 +17,49 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-*/.site-description{color:#99badd}h1{background-color:#00f}.entry-content{font-size:15px}#menu-primary{display:flex;flex-wrap:nowrap;height:4.5rem;justify-content:space-evenly}.nav-link{text-overflow:ellipsis;overflow:hidden;width:6rem;height:3.5rem}
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+.site-description {
+  color: #99badd; }
+
+h1 {
+  background-color: blue; }
+
+.entry-content {
+  font-size: 15px; }
+
+#menu-primary {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 4.5rem;
+  justify-content: space-evenly; }
+
+.nav-link {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 6rem;
+  height: 3.5rem; }
+
+
+/*# sourceMappingURL=style.css.map*/

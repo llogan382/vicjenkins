@@ -1,5 +1,5 @@
 /*!
-Theme Name: Vic Jenkins
+Theme Name: VicJenkins
 Author: Logan Web Dev
 Author URI: https://loganwebdev.com
 Description: A custom WordPress Theme for VicJenkins.com
@@ -104,6 +104,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 // --------------------------------------------------------------*/
 // @import "media/media";
 
+
+@import "custom/custom.scss";
+// @import "~bootstrap/scss/bootstrap";
 .site-description {
 	color: #99badd;
 }
