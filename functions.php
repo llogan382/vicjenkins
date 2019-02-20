@@ -125,6 +125,8 @@ function lwd_dev_themescripts() {
 
 	wp_enqueue_style('lwd-bootstrap-css', get_template_directory_uri() . '/assets/bootstrap.min.css');
 
+	wp_enqueue_style('lwd-fontawesome', get_template_directory_uri() . '/assets/fonts/font-awesome.min.css');
+
 	wp_enqueue_script('lwd-bootstrap-js', get_template_directory_uri() . '/assets/bootstrap.min.js');
 
 	wp_enqueue_script( 'lwd-navigation', get_template_directory_uri() . '/src/js/navigation.js', array(), '20151215', true );

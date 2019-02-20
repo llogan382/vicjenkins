@@ -1,7 +1,7 @@
 const path = require('path'),
   MiniCssExtractPlugin = require('mini-css-extract-plugin'),
-  // UglifyJSPlugin = require('uglifyjs-webpack-plugin'),
-  // OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'),
+  UglifyJSPlugin = require('uglifyjs-webpack-plugin'),
+  OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'),
   BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
@@ -35,13 +35,10 @@ module.exports = {
     new BrowserSyncPlugin({
       files: '**/*.php',
       injectChanges: true,
-      proxy: 'http://vicjenkins.lwd'
+      proxy: 'http://loganwebdevwebpack.loc'
     })
   ],
   optimization: {
-    splitChunks: {
-      chunks: "initial",
-    },
+    minimizer: [new UglifyJSPlugin(), new OptimizeCssAssetsPlugin()]
   }
 };
-

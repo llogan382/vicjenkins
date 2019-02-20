@@ -106,7 +106,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 
 @import "custom/custom.scss";
-// @import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap";
+// @import "font-awesome/font-awesome.scss";
 .site-description {
 	color: #99badd;
 }
@@ -129,4 +130,13 @@ h1 {
 	overflow: hidden;
 	width: 6rem;
 	height: 3.5rem;
+}
+.row-3-r{
+	margin-left: 25vh;
+}
+.row-1-l{
+	margin-left: 8rem;
+}
+.row-1-r{
+	margin-right: 8rem;
 }

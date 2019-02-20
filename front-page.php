@@ -15,20 +15,42 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
-			<div class="container">
-				<div class="row">
-					<div class="col-9">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+			<div class="header-img">
+				<div class="d-flex align-items-center icon-row flex-row justify-content-between">
+					<div class="row-1-l">
+					<i class="fa fa-users" aria-hidden="true"></i>
 					</div>
+					<div class="row-1-r">
+						icon
+					</div>
+				</div>
+				<div class="d-flex align-items-center icon-row flex-row justify-content-around">
+					<div class="m-2">
+						icon
+					</div>
+					<div class="m-2">
+						icon
+					</div>
+				</div>
+				<div class="d-flex align-items-center icon-row flex-row justify-content-center">
+					<div class="row-3-l">
+						icon
+					</div>
+					<div class="row-3-r">
+						icon
+					</div>
+				</div>
+				<div class="d-flex align-items-center icon-row flex-row justify-content-around">
+					<div class="p-2">
+						icon
+					</div>
+
 				</div>
 			</div>
 
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+
 
 <?php
-get_sidebar();
 get_footer();
