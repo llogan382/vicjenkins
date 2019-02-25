@@ -24,7 +24,8 @@
 
 				</div>
 				<div class="col">
-				Social Network
+					Social Network
+				<i class="fa fa-footer fa-facebook-official" aria-hidden="true"></i>
 				</div>
 
 			</div>

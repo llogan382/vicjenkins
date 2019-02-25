@@ -33,7 +33,7 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({ filename: '../style.css' }),
     new BrowserSyncPlugin({
-      files: '**/*.php',
+      files: '*.php',
       injectChanges: true,
       proxy: 'http://vicjenkins.lwd'
     })

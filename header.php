@@ -26,46 +26,46 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title">LUKE<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$lwd_dev_themedescription = get_bloginfo( 'description', 'display' );
-			if ( $lwd_dev_themedescription || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $lwd_dev_themedescription; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<?php the_custom_logo();?>
+				</div>
+				<div class="col-3">
+				<img src="/wp-content/themes/vicjenkins/inc/img/assets_pngs/bbb-vicjenkins.png" alt="">
+				</div>
+				<div class="col-3">
+					<a href="tel:1-615-452-3037">(615) 452-3037</a>
+				</div>
+				<div class="col-2">
+					<span>Mon – Fri: 8:00AM – 5:00PM </span>
+					<span>Sat-Sun: Closed</span>
+				</div>
+			</div>
 
-<nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
-  <div class="container">
-	<!-- Brand and toggle get grouped for better mobile display -->
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<a class="navbar-brand" href="#">Navbar</a>
-		<?php
-		wp_nav_menu( array(
-			'theme_location'    => 'primary',
-			'depth'             => 2,
-			'container'         => 'div',
-			'container_class'   => 'collapse navbar-collapse',
-			'container_id'      => 'bs-example-navbar-collapse-1',
-			'menu_class'        => 'nav navbar-nav',
-			'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-			'walker'            => new WP_Bootstrap_Navwalker(),
-		) );
-		?>
-	</div>
-</nav>
+		</div>
+
+		<nav class="navbar navbar-expand-md navbar-light" role="navigation">
+		<div class="container menu-container">
+
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+				<?php
+				wp_nav_menu( array(
+					'theme_location'    => 'primary',
+					'depth'             => 2,
+					'container'         => 'div',
+					'container_class'   => 'collapse navbar-collapse',
+					'container_id'      => 'bs-example-navbar-collapse-1',
+					'menu_class'        => 'nav navbar-nav',
+					'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+					'walker'            => new WP_Bootstrap_Navwalker(),
+				) );
+				?>
+			</div>
+		</nav>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
