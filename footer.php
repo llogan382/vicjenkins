@@ -23,9 +23,18 @@
 					Service
 
 				</div>
-				<div class="col">
+				<div class="col social-footer">
 					Social Network
-				<i class="fa fa-footer fa-facebook-official" aria-hidden="true"></i>
+						<div class="row">
+						<i class="fa fa-footer fa-2x fa-facebook-official" aria-hidden="true"></i>
+						</div>
+
+						<div class="row">
+						<i class="fa fa-footer fa-2x fa-facebook-official" aria-hidden="true"></i>
+						</div>
+						<div class="row">
+						<i class="fa fa-footer fa-2x fa-facebook-official" aria-hidden="true"></i>
+						</div>
 				</div>
 
 			</div>

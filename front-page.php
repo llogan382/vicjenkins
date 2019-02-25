@@ -42,14 +42,22 @@ get_header();
 					<i class="fa fa-top-feature fa-thumbs-o-up fa-3x" aria-hidden="true"></i>
 					</div>
 				</div>
-				<div class="d-flex align-items-center icon-row flex-row justify-content-around">
-					<div class="p-2">
+
+					<div class="d-flex icon-row flex-row justify-content-around">
+					<div class="p-2 justify-content-center">
 					<i class="fa fa-top-feature fa-check-square-o fa-3x" aria-hidden="true"></i>
 					</div>
 
 				</div>
-			</div>
 
+
+			</div>
+			<div class="rotator-text">
+				<h3 class="header-text-title">Register your vehicle <span id="header-accent">online</span>
+				</h3>
+				<span class="header-text-snippet">and skip the wait at the car outlet</span>
+				
+				</div>
 
 <!-- Begin Middle Section -->
 <div class="container featured-tiles">
@@ -104,7 +112,7 @@ get_header();
 	<div class="row card-row-top">
 		<div class="col card">
 			<div class="card-body card-left">
-				<h5 class="card-title">Because Car Buying</h5>
+				<h5 class="card-title-left">Because Car Buying</h5>
 				<h6 class="card-subtitle">
 				Shouldnt Suck
 				</h6>
@@ -113,7 +121,7 @@ get_header();
 		</div>
 		<div class="col card">
 			<div class="card-body card-right">
-				<h5 class="card-title">Real-time Financins</h5>
+				<h5 class="card-title-right">Real-time Financins</h5>
 				<h6 class="card-subtitle"> With No Middle Man
 				</h6>
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -129,7 +137,7 @@ get_header();
 	<div class="row card-row-bottom">
 		<div class="col card">
 			<div class="card-body card-left">
-				<h5 class="card-title">We Have One Standard</h5>
+				<h5 class="card-title-left">We Have One Standard</h5>
 				<h6 class="card-subtitle"> The Highest
 				</h6>
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -137,7 +145,7 @@ get_header();
 		</div>
 		<div class="col card">
 			<div class="card-body card-right">
-				<h5 class="card-title">Online Means</h5>
+				<h5 class="card-title-right">Online Means</h5>
 				<h6 class="card-subtitle"> We Save You Money
 				</h6>
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
