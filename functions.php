@@ -45,6 +45,9 @@ if ( ! function_exists( 'lwd_dev_themesetup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'primary' => __( 'Primary Menu', 'VicJenkins' ),
+			'footer-help' => __('Footer Help Menu', 'VicJenkins'),
+			'footer-service' => __('Footer Service Menu', 'VicJenkins')
+
 		) );
 
 

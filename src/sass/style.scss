@@ -116,9 +116,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	color: #99badd;
 }
 
-h1 {
-	background-color: blue;
-}
 .entry-content {
 	font-size: 15px;
 }
@@ -301,4 +298,8 @@ h1 {
 
 #content {
 	background: #f4f8fa;
+}
+
+.footer-menu-container {
+	width: 5rem!important;
 }
