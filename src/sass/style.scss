@@ -150,10 +150,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	margin-right: 8rem;
 }
 
-.featured-text {
-	padding-left: 8rem!important;
-	padding-right: 8rem!important;
-}
 .fa-top-feature {
 	padding: 2vh;
 	color: darkred;
@@ -283,6 +279,19 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	width: auto;
     height: 5rem;
 }
+
+@media only screen and (max-width: 600px) {
+	.rotator-text {
+		display: none;
+	}
+}
+.card-columns {
+	max-height: 620px;
+}
+// .card{
+// 	min-height: 300px;
+// }
+
 .rotator-text {
 	position: absolute;
     margin-top: -10rem;

@@ -17,34 +17,44 @@ get_header();
 
 
 			<div class="header-img">
-				<div class="d-flex align-items-center icon-row flex-row justify-content-between">
-					<div class="row-1-l">
-					<i class="fa fa-top-feature fa-users fa-3x" aria-hidden="true"></i>
+				<div class="d-flex row-1 flex-row mb-4 justify-content-between">
+					<div class="p-2">
+						
+						<i class="fa fa-top-feature fa-car fa-3x" aria-hidden="true"></i>
 					</div>
-					<div class="row-1-r">
-					<i class="fa fa-top-feature fa-car fa-3x" aria-hidden="true"></i>
+					<div class="p-2">
+						
+						<i class="fa fa-top-feature fa-car fa-3x" aria-hidden="true"></i>
+					</div>	
+				</div>
+				<div class="d-flex row-2 flex-row mb-4 justify-content-between">
+					<div class="p-2">
+						<i class="fa fa-top-feature fa-money fa-3x" aria-hidden="true"></i>
+					</div>
+					<div class="p-2">
+						<i class="fa fa-top-feature fa-calendar fa-3x" aria-hidden="true"></i>
+					</div>	
+				</div>
+				<div class="d-flex flex-row justify-content-between row-3 mb-4">
+					<div class="p-2">
+						<i class="fa fa-top-feature fa-calculator fa-3x" aria-hidden="true"></i>
+					</div>
+					<div class="p-2">
+						<i class="fa fa-top-feature fa-dollar fa-3x" aria-hidden="true"></i>
+					</div>	
+				</div>
+				<div class="d-flex flex-row justify-content-between row-4 mb-4">
+					<div class="p-2">
+						<i class="fa fa-top-feature fa-key fa-3x" aria-hidden="true"></i>
+					</div>
+					<div class="p-2">
+						<i class="fa fa-top-feature fa-battery fa-3x" aria-hidden="true"></i>
+					</div>	
+				</div>
 
-					</div>
-				</div>
-				<div class="d-flex align-items-center icon-row flex-row justify-content-around">
-					<div class="m-2">
-					<i class="fa fa-top-feature fa-key fa-3x" aria-hidden="true"></i>
-					</div>
-					<div class="m-2">
-					<i class="fa fa-top-feature fa-money fa-3x" aria-hidden="true"></i>
-					</div>
-				</div>
-				<div class="d-flex align-items-center icon-row flex-row justify-content-center">
-					<div class="row-3-l">
-					<i class="fa fa-top-feature fa-calendar-check-o fa-3x" aria-hidden="true"></i>
-					</div>
-					<div class="row-3-r">
-					<i class="fa fa-top-feature fa-thumbs-o-up fa-3x" aria-hidden="true"></i>
-					</div>
-				</div>
 
-					<div class="d-flex icon-row flex-row justify-content-around">
-					<div class="p-2 justify-content-center">
+				<div class="d-flex flex-row justify-content-center">
+					<div class="p-2">
 					<i class="fa fa-top-feature fa-check-square-o fa-3x" aria-hidden="true"></i>
 					</div>
 
@@ -60,8 +70,11 @@ get_header();
 				</div>
 
 <!-- Begin Middle Section -->
-<div class="container featured-tiles">
-	<div class="row">
+<div class="container-fluid featured-tiles">
+	<div class="row text-center">
+		<div class="col-md-2">
+
+		</div>
 		<div class="col featured-text">
 		Vic Jenkins Automotive in Gallatin, TN is a family owned and operated business. We've proudly served the Gallatin community since 1955. We're proud of our many repeat customers who count on Vic Jenkins Automotive for all of their automotive needs. Our modern, well equipped facilities offer customers the latest technology, no matter what make or model you own. We also offer rental cars to help you during extensive repairs.
 
@@ -69,10 +82,13 @@ get_header();
 
 		We hope you'll let us help you with all of your automotive needs. Contact us at 615-452-3037 to become part of the Vic Jenkins Automotive family.
 		</div>
+		<div class="col-md-2">
+
+		</div>
 
 	</div>
-	<div class="row">
-		<div class="col card box">
+<div class="card-deck">
+	<div class="card">
 			<div class="card-body text-center">
 				<i class="fa fa-2x fa-diamond" aria-hidden="true"></i>
 				<h5 class="card-title">Specials</h5>
@@ -80,7 +96,7 @@ get_header();
 			
 			</div>
 		</div>
-		<div class="col card box">
+		<div class="card">
 			<div class="card-body text-center">
 				<i class="fa fa-2x fa-car" aria-hidden="true"></i>
 				<h5 class="card-title">Cars</h5>
@@ -88,7 +104,7 @@ get_header();
 			
 			</div>
 		</div>
-		<div class="col card box">
+		<div class="card">
 			<div class="card-body text-center">
 				<i class="fa fa-2x fa-truck" aria-hidden="true"></i>
 				<h5 class="card-title">Trucks</h5>
@@ -96,7 +112,9 @@ get_header();
 			
 			</div>
 		</div>
-	</div>
+</div>
+
+
 	
 	<div class="d-flex justify-content-center" style="height: 200px">
 		<div class="h-30">
@@ -108,52 +126,47 @@ get_header();
 </div>
 
 <!-- Begin Bottom Section -->
-<div class="container">
-	<div class="row card-row-top">
-		<div class="col card">
-			<div class="card-body card-left">
-				<h5 class="card-title-left">Because Car Buying</h5>
-				<h6 class="card-subtitle">
+	<div class="card-columns" style="display: inline-block">
+		<div class="card">
+			<div class="card-body m-4">
+				<h5 class="card-title card-title-left">Because Car Buying</h5>
+				<h6 class="card-title card-subtitle">
 				Shouldnt Suck
 				</h6>
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 			</div>
 		</div>
-		<div class="col card">
-			<div class="card-body card-right">
-				<h5 class="card-title-right">Real-time Financins</h5>
-				<h6 class="card-subtitle"> With No Middle Man
-				</h6>
-				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			</div>
-		</div>
-	</div>
-	<!-- Image In Center -->
-	<div class="row justify-content-center">
 		<div class="card">
-			<img class="bottom-feature-img" src="/wp-content/themes/vicjenkins/inc/img/assets_pngs/layer-36.png">
-		</div>	
-	</div>
-	<div class="row card-row-bottom">
-		<div class="col card">
-			<div class="card-body card-left">
-				<h5 class="card-title-left">We Have One Standard</h5>
-				<h6 class="card-subtitle"> The Highest
+			<div class="card-body m-4">
+				<h5 class="card-title card-title-right">Real-time Financins</h5>
+				<h6 class="card-title card-subtitle"> With No Middle Man
 				</h6>
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 			</div>
 		</div>
-		<div class="col card">
-			<div class="card-body card-right">
-				<h5 class="card-title-right">Online Means</h5>
-				<h6 class="card-subtitle"> We Save You Money
+	<!-- Image In Center -->
+		<div class="card" style="max-height: 600px">
+			<img style="max-height: 600px max-width:300px" class="card-img-top" src="/wp-content/themes/vicjenkins/inc/img/assets_pngs/layer-36.png" alt="vehicle">
+		</div>
+
+		<div class="card">
+			<div class="card-body m-4">
+				<h5 class="card-title card-title-left">We Have One Standard</h5>
+				<h6 class="card-title card-subtitle"> The Highest
+				</h6>
+				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-body m-4">
+				<h5 class="card-title card-title-right">Online Means</h5>
+				<h6 class="card-title card-subtitle"> We Save You Money
 				</h6>
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 			</div>
 		</div>
 	</div>
 
-</div>
 
 
 <!-- Bottom Image Banner -->

@@ -11,6 +11,35 @@
 .icon-row {
     height: 20vh;
 }
+
+.row-1{
+    margin: 0rem 15vw 5rem;
+}
+.row-2{
+    margin: 0rem 15vw 5rem;
+}
+.row-3{
+    margin: 0rem 15vw 5rem;
+}
+.row-4{
+    margin: 0rem 15vw 5rem;
+    }
+
+@media only screen and (min-width: 600px) {
+
+.row-1{
+    margin: 0rem 5vw 5rem;
+}
+.row-2{
+    margin: 0rem 15vw 5rem;
+}
+.row-3{
+    margin: 0rem 25vw 5rem;
+}
+.row-4{
+    margin: 0rem 35vw 5rem;
+    }
+}
 .featured-tiles{
     background-color: #f4f8fa;
     padding-top: 3rem;
