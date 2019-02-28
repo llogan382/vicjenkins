@@ -35,6 +35,13 @@ When done making edits, type:
 * Released: Month day, year
 https://github.com/llogan382/lwd-dev-template/tree/VERSION
 
+== Changelog ==
+= X.X.X =
+* Released: Feb 28, 2019
+
+Adds support for version control as part of the style sheets.
+https://github.com/llogan382/lwd-dev-template/tree/VERSION
+
 = 1.0.2 =
 * Released: Feb 13, 2019
 https://github.com/llogan382/lwd-dev-template/tree/1.0.2

@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package _s
+ * @package vicjenkins
  */
 
 if ( ! function_exists( 'lwd_dev_themesetup' ) ) :
@@ -124,7 +124,9 @@ add_action( 'widgets_init', 'lwd_dev_themewidgets_init' );
  * Enqueue scripts and styles.
  */
 function lwd_dev_themescripts() {
-	wp_enqueue_style( 'lwd-style', get_stylesheet_uri() );
+	$theme = wp_get_theme();
+	$ver = $theme->get( 'Version' );
+	wp_enqueue_style( 'lwd-style', get_stylesheet_uri(), $deps = array(), $ver );
 
 	wp_enqueue_style('lwd-bootstrap-css', get_template_directory_uri() . '/assets/bootstrap.min.css');
 

@@ -2,7 +2,7 @@
 /**
  * lwd-dev-themeTheme Customizer
  *
- * @package _s
+ * @package vicjenkins
  */
 
 /**
