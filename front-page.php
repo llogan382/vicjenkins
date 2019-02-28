@@ -60,14 +60,20 @@ get_header();
 				</div>
 
 <!-- Begin Middle Section -->
-<div class="container featured-tiles">
-	<div class="row">
+<div class="container-fluid featured-tiles">
+	<div class="row text-center">
+		<div class="col-md-2">
+
+		</div>
 		<div class="col featured-text">
 		Vic Jenkins Automotive in Gallatin, TN is a family owned and operated business. We've proudly served the Gallatin community since 1955. We're proud of our many repeat customers who count on Vic Jenkins Automotive for all of their automotive needs. Our modern, well equipped facilities offer customers the latest technology, no matter what make or model you own. We also offer rental cars to help you during extensive repairs.
 
 		When you need to purchase a used car, we're ready to provide you the best experience, including a wide selection of quality used cars for sale and multiple financing options. Each of our vehicles is handpicked by our experts. We can also acquire almost any vehicle you need so if you don't see the used car you're looking for on our lot, let us know! We'll help you find it.
 
 		We hope you'll let us help you with all of your automotive needs. Contact us at 615-452-3037 to become part of the Vic Jenkins Automotive family.
+		</div>
+		<div class="col-md-2">
+
 		</div>
 
 	</div>
