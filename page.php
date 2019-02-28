@@ -17,7 +17,7 @@ get_header();
 
 <div class="container">
 <div class="row">
-	<div class="col">
+	<div class="col-8">
 	<?php
 						while ( have_posts() ) :
 							the_post();
@@ -33,6 +33,26 @@ get_header();
 						?>
 
 	</div>
+	<div class="col-4">
+	<?php 
+
+$image = get_field('store_image', 'option');
+$size = 'medium'; // (thumbnail, medium, large, full or custom size)
+
+if( $image ) {
+
+	echo wp_get_attachment_image( $image, $size );
+
+}
+echo "</br>";
+$caption = the_field('store_caption', 'option');
+
+echo $caption;
+
+?>
+
+	</div>
+
 </div>
 </div>
 

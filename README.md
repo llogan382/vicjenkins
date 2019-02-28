@@ -36,7 +36,7 @@ When done making edits, type:
 https://github.com/llogan382/lwd-dev-template/tree/VERSION
 
 == Changelog ==
-= X.X.X =
+= 1.0.3 =
 * Released: Feb 28, 2019
 
 Adds support for version control as part of the style sheets.

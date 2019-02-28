@@ -102,6 +102,37 @@ function lwd_dev_themecontent_width() {
 }
 add_action( 'after_setup_theme', 'lwd_dev_themecontent_width', 0 );
 
+
+
+/**
+ * Add Theme Options Page for Advanced Custom Fields
+ * 
+ */
+
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page(array(
+		'page_title' 	=> 'Theme General Settings',
+		'menu_title'	=> 'Theme Settings',
+		'menu_slug' 	=> 'theme-general-settings',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+	
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Page Settings',
+		'menu_title'	=> 'All Pages',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+	
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Theme Footer Settings',
+		'menu_title'	=> 'Footer',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+	
+}
+
 /**
  * Register widget area.
  *
