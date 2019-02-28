@@ -37,3 +37,9 @@
     background-color: #333436;
     border-top: 5px solid #333436;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
