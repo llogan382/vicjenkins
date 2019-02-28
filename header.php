@@ -28,16 +28,16 @@
 	<header id="masthead" class="site-header">
 		<div class="container">
 			<div class="row header-row">
-				<div class="col-4 logo-image">
+				<div class="col col-sm-6 logo-image">
 					<?php the_custom_logo();?>
 				</div>
-				<div class="col-3">
+				<div class="col-md-3 d-none d-sm-block">
 				<img src="/wp-content/themes/vicjenkins/inc/img/assets_pngs/bbb-vicjenkins.png" alt="">
 				</div>
-				<div class="col-3">
+				<div class="col-md-3 col">
 					<a href="tel:1-615-452-3037">(615) 452-3037</a>
 				</div>
-				<div class="col-2">
+				<div class="col-md-2 d-none d-sm-block">
 					<span>Mon – Fri: 8:00AM – 5:00PM </span>
 					<span>Sat-Sun: Closed</span>
 				</div>
