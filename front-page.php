@@ -126,52 +126,47 @@ get_header();
 </div>
 
 <!-- Begin Bottom Section -->
-<div class="container">
-	<div class="row card-row-top">
-		<div class="col card">
-			<div class="card-body card-left">
-				<h5 class="card-title-left">Because Car Buying</h5>
-				<h6 class="card-subtitle">
+	<div class="card-columns" style="display: inline-block">
+		<div class="card">
+			<div class="card-body m-4">
+				<h5 class="card-title card-title-left">Because Car Buying</h5>
+				<h6 class="card-title card-subtitle">
 				Shouldnt Suck
 				</h6>
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 			</div>
 		</div>
-		<div class="col card">
-			<div class="card-body card-right">
-				<h5 class="card-title-right">Real-time Financins</h5>
-				<h6 class="card-subtitle"> With No Middle Man
-				</h6>
-				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			</div>
-		</div>
-	</div>
-	<!-- Image In Center -->
-	<div class="row justify-content-center">
 		<div class="card">
-			<img class="bottom-feature-img" src="/wp-content/themes/vicjenkins/inc/img/assets_pngs/layer-36.png">
-		</div>	
-	</div>
-	<div class="row card-row-bottom">
-		<div class="col card">
-			<div class="card-body card-left">
-				<h5 class="card-title-left">We Have One Standard</h5>
-				<h6 class="card-subtitle"> The Highest
+			<div class="card-body m-4">
+				<h5 class="card-title card-title-right">Real-time Financins</h5>
+				<h6 class="card-title card-subtitle"> With No Middle Man
 				</h6>
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 			</div>
 		</div>
-		<div class="col card">
-			<div class="card-body card-right">
-				<h5 class="card-title-right">Online Means</h5>
-				<h6 class="card-subtitle"> We Save You Money
+	<!-- Image In Center -->
+		<div class="card" style="max-height: 600px">
+			<img style="max-height: 600px max-width:300px" class="card-img-top" src="/wp-content/themes/vicjenkins/inc/img/assets_pngs/layer-36.png" alt="vehicle">
+		</div>
+
+		<div class="card">
+			<div class="card-body m-4">
+				<h5 class="card-title card-title-left">We Have One Standard</h5>
+				<h6 class="card-title card-subtitle"> The Highest
+				</h6>
+				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-body m-4">
+				<h5 class="card-title card-title-right">Online Means</h5>
+				<h6 class="card-title card-subtitle"> We Save You Money
 				</h6>
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 			</div>
 		</div>
 	</div>
 
-</div>
 
 
 <!-- Bottom Image Banner -->
