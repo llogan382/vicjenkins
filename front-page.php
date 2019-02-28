@@ -17,34 +17,44 @@ get_header();
 
 
 			<div class="header-img">
-				<div class="d-flex align-items-center icon-row flex-row justify-content-between">
-					<div class="row-1-l">
-					<i class="fa fa-top-feature fa-users fa-3x" aria-hidden="true"></i>
+				<div class="d-flex row-1 flex-row mb-4 justify-content-between">
+					<div class="p-2">
+						
+						<i class="fa fa-top-feature fa-car fa-3x" aria-hidden="true"></i>
 					</div>
-					<div class="row-1-r">
-					<i class="fa fa-top-feature fa-car fa-3x" aria-hidden="true"></i>
+					<div class="p-2">
+						
+						<i class="fa fa-top-feature fa-car fa-3x" aria-hidden="true"></i>
+					</div>	
+				</div>
+				<div class="d-flex row-2 flex-row mb-4 justify-content-between">
+					<div class="p-2">
+						<i class="fa fa-top-feature fa-money fa-3x" aria-hidden="true"></i>
+					</div>
+					<div class="p-2">
+						<i class="fa fa-top-feature fa-calendar fa-3x" aria-hidden="true"></i>
+					</div>	
+				</div>
+				<div class="d-flex flex-row justify-content-between row-3 mb-4">
+					<div class="p-2">
+						<i class="fa fa-top-feature fa-calculator fa-3x" aria-hidden="true"></i>
+					</div>
+					<div class="p-2">
+						<i class="fa fa-top-feature fa-dollar fa-3x" aria-hidden="true"></i>
+					</div>	
+				</div>
+				<div class="d-flex flex-row justify-content-between row-4 mb-4">
+					<div class="p-2">
+						<i class="fa fa-top-feature fa-key fa-3x" aria-hidden="true"></i>
+					</div>
+					<div class="p-2">
+						<i class="fa fa-top-feature fa-battery fa-3x" aria-hidden="true"></i>
+					</div>	
+				</div>
 
-					</div>
-				</div>
-				<div class="d-flex align-items-center icon-row flex-row justify-content-around">
-					<div class="m-2">
-					<i class="fa fa-top-feature fa-key fa-3x" aria-hidden="true"></i>
-					</div>
-					<div class="m-2">
-					<i class="fa fa-top-feature fa-money fa-3x" aria-hidden="true"></i>
-					</div>
-				</div>
-				<div class="d-flex align-items-center icon-row flex-row justify-content-center">
-					<div class="row-3-l">
-					<i class="fa fa-top-feature fa-calendar-check-o fa-3x" aria-hidden="true"></i>
-					</div>
-					<div class="row-3-r">
-					<i class="fa fa-top-feature fa-thumbs-o-up fa-3x" aria-hidden="true"></i>
-					</div>
-				</div>
 
-					<div class="d-flex icon-row flex-row justify-content-around">
-					<div class="p-2 justify-content-center">
+				<div class="d-flex flex-row justify-content-center">
+					<div class="p-2">
 					<i class="fa fa-top-feature fa-check-square-o fa-3x" aria-hidden="true"></i>
 					</div>
 
