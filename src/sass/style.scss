@@ -279,6 +279,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	width: auto;
     height: 5rem;
 }
+
+@media only screen and (max-width: 600px) {
+	.rotator-text {
+		display: none;
+	}
+}
 .rotator-text {
 	position: absolute;
     margin-top: -10rem;

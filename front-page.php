@@ -87,8 +87,8 @@ get_header();
 		</div>
 
 	</div>
-	<div class="row">
-		<div class="col card box">
+<div class="card-deck">
+	<div class="card">
 			<div class="card-body text-center">
 				<i class="fa fa-2x fa-diamond" aria-hidden="true"></i>
 				<h5 class="card-title">Specials</h5>
@@ -96,7 +96,7 @@ get_header();
 			
 			</div>
 		</div>
-		<div class="col card box">
+		<div class="card">
 			<div class="card-body text-center">
 				<i class="fa fa-2x fa-car" aria-hidden="true"></i>
 				<h5 class="card-title">Cars</h5>
@@ -104,7 +104,7 @@ get_header();
 			
 			</div>
 		</div>
-		<div class="col card box">
+		<div class="card">
 			<div class="card-body text-center">
 				<i class="fa fa-2x fa-truck" aria-hidden="true"></i>
 				<h5 class="card-title">Trucks</h5>
@@ -112,7 +112,9 @@ get_header();
 			
 			</div>
 		</div>
-	</div>
+</div>
+
+
 	
 	<div class="d-flex justify-content-center" style="height: 200px">
 		<div class="h-30">
